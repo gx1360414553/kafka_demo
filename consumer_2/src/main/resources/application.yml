@@ -4,7 +4,4 @@ spring:
   kafka:
     consumer:
       group-id: group1
-      bootstrap-servers: 192.168.26.130:9092,192.168.26.130:9093,192.168.26.130:9094
-#      key-deserializer: org.apache.kafka.common.serialization.StringSerializer
-#      value-deserializer: org.apache.kafka.common.serialization.StringSerializer
-#    bootstrap-servers: 192.168.26.130:9092,192.168.26.130:9093,192.168.26.130:9094
+      bootstrap-servers: 192.168.166.100:9092,192.168.166.100:9093,192.168.166.100:9094

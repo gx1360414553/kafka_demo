@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrapServers: 192.168.26.130:9092,192.168.26.130:9093,192.168.26.130:9094
+    bootstrapServers: 192.168.166.100:9092,192.168.166.100:9093,192.168.166.100:9094
     producer:
       #      key-serializer: org.apache.kafka.common.serialization.StringSerializer
       #      value-serializer: org.apache.kafka.common.serialization.StringSerializer

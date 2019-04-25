@@ -21,7 +21,7 @@ public class DemoApplicationTests {
             int count = 0;
             try {
                 while (true){
-                    ListenableFuture<SendResult<String, String>> future = kafkaTemplate.send("test1","luoye2", "2hello kafka.." + count);
+                    ListenableFuture<SendResult<String, String>> future = kafkaTemplate.send("topic001","luoye2", "2hello kafka.." + count);
                     future.addCallback(new ListenableFutureCallback<SendResult< String, String >>() {
                         @Override
                         public void onSuccess(SendResult<String, String> result) {

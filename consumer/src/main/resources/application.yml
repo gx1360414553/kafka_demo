@@ -8,7 +8,7 @@ spring:
       compressionType: snappy
       acks: all
     consumer:
-      group-id: group1
+      group-id: group3
       bootstrap-servers: 192.168.26.130:9092,192.168.26.130:9093,192.168.26.130:9094
 #      key-deserializer: org.apache.kafka.common.serialization.StringSerializer
 #      value-deserializer: org.apache.kafka.common.serialization.StringSerializer

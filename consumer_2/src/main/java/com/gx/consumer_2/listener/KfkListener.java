@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KfkListener {
 
-    @KafkaListener(topics = {"test2"})
+    @KafkaListener(topics = {"topic001"},groupId = "group3")
     public void listen(ConsumerRecord<?, ?> record) {
         System.out.println(record.key());
         System.out.println(record.value());
